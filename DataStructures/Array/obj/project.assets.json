@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {
-      "Array/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/Array.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Array.dll": {}
-        }
-      }
-    }
+    "net6.0": {}
   },
-  "libraries": {
-    "Array/1.0.0": {
-      "type": "project",
-      "path": "../Array/Array.csproj",
-      "msbuildProject": "../Array/Array.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net6.0": [
-      "Array >= 1.0.0"
-    ]
+    "net6.0": []
   },
   "packageFolders": {
     "C:\\Users\\zafer\\.nuget\\packages\\": {}
@@ -32,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\MYAZ20420623\\DataStructures\\ArrayConsoleApp\\ArrayConsoleApp.csproj",
-      "projectName": "ArrayConsoleApp",
-      "projectPath": "E:\\MYAZ20420623\\DataStructures\\ArrayConsoleApp\\ArrayConsoleApp.csproj",
+      "projectUniqueName": "E:\\MYAZ20420623\\DataStructures\\Array\\Array.csproj",
+      "projectName": "Array",
+      "projectPath": "E:\\MYAZ20420623\\DataStructures\\Array\\Array.csproj",
       "packagesPath": "C:\\Users\\zafer\\.nuget\\packages\\",
-      "outputPath": "E:\\MYAZ20420623\\DataStructures\\ArrayConsoleApp\\obj\\",
+      "outputPath": "E:\\MYAZ20420623\\DataStructures\\Array\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\zafer\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -52,11 +33,7 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {
-            "E:\\MYAZ20420623\\DataStructures\\Array\\Array.csproj": {
-              "projectPath": "E:\\MYAZ20420623\\DataStructures\\Array\\Array.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

@@ -41,9 +41,20 @@ public class Array : IEnumerable
         _InnerArray = newArray;
     }
 
+    /// <summary>
+    /// Week 1
+    /// </summary>
+    /// <param name="position"></param>
+    /// <returns>
+    ///     Verilen pozisyonda bulunan elemanı geri döndürür.
+    ///     Eğer pozisyon sınırlar dışındaysa IndexOutOfRangeException hata fırlatır.
+    /// </returns>
+    /// <exception cref="NotImplementedException"></exception>
     public Object GetItem(int position)
     {
-        // exception
+        // throw new NotImplementedException();
+        if (position < 0 || position >= _InnerArray.Length)
+            throw new IndexOutOfRangeException();
         return _InnerArray[position];
     }
 
@@ -70,7 +81,9 @@ public class Array : IEnumerable
     /// <param name="p2"></param>
     public void Swap(int p1, int p2)
     {
-        throw new NotImplementedException();
+        var temp = _InnerArray[p1];
+        _InnerArray[p1] = _InnerArray[p2];
+        _InnerArray[p2] = temp;
     }
 
     /// <summary>

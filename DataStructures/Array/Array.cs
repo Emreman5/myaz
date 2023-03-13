@@ -1,12 +1,14 @@
-﻿namespace Array;
-public class Array
+﻿using System.Collections;
+
+namespace Array;
+public class Array : IEnumerable
 {
     // Object
     // Type : Array
     private Object[] _InnerArray; // null
     private int index = 0;
 
-    public int Count => 0*index;  // Dizi kaç eleman var?
+    public int Count => index;  // Dizi kaç eleman var?
     public int Capacity => _InnerArray.Length;
 
 
@@ -35,6 +37,50 @@ public class Array
 
     public Object GetItem(int position)
     {
+        // exception
         return _InnerArray[position];
+    }
+
+    /// <summary>
+    /// Week 1 - Implementation 1 
+    /// 
+    /// </summary>
+    /// <param name="position"></param>
+    /// <exception cref="NotImplementedException"></exception>
+    public void RemoveItem(Object item)
+    {
+        throw new NotImplementedException();
+    }
+
+    /// <summary>
+    ///  Week - 1 Implementation 2
+    /// </summary>
+    /// <param name="p1"></param>
+    /// <param name="p2"></param>
+    public void Swap(int p1, int p2)
+    {
+        throw new NotImplementedException();
+    }
+
+    /// <summary>
+    /// Week - 1 Implementation 3
+    /// </summary>
+    /// <param name="item"></param>
+    /// <returns></returns>
+    public int Find(Object item)
+    {
+        for (int i = 0; i < _InnerArray.Length; i++)
+        {
+            if (item.Equals(_InnerArray[i]))
+            {
+                return i;
+            }
+        }
+        return -1;
+    }
+
+    public IEnumerator GetEnumerator()
+    {
+        return _InnerArray.GetEnumerator();
     }
 }

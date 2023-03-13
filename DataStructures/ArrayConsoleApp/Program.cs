@@ -7,7 +7,14 @@ array.Add("Can");       // 2    4
 array.Add("Filiz");     // 3    4
 array.Add("Furkan");    // 4    8
 
+Console.WriteLine(array.GetItem(array.Find("Can"))); ;      
 
+foreach (var item in array)
+{
+    Console.WriteLine(item);
+}
+
+// _InnerArray[0]
 
 Console.WriteLine(array.Count);
 Console.WriteLine(array.GetItem(3));   

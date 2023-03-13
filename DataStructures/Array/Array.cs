@@ -7,7 +7,6 @@ public class Array : IEnumerable
     // Type : Array
     private Object[] _InnerArray; // null
     private int index = 0;
-
     public int Count => index;  // Dizi kaç eleman var?
     public int Capacity => _InnerArray.Length;
 
@@ -16,7 +15,14 @@ public class Array : IEnumerable
     {
         _InnerArray = new Object[4]; // Block allocation
     }
-    
+
+    public Array(params Object[] init)
+    {
+        var newArray = new Object[init.Length];
+        System.Array.Copy(init, newArray, init.Length);
+        _InnerArray = newArray;
+    }
+
     public void Add(Object item)
     {
         if(index==_InnerArray.Length)
@@ -39,6 +45,11 @@ public class Array : IEnumerable
     {
         // exception
         return _InnerArray[position];
+    }
+
+    public void SetItem(int position, Object item)
+    {
+        _InnerArray[position] = item;
     }
 
     /// <summary>

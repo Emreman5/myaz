@@ -89,5 +89,39 @@ namespace ArrayTests
             Assert.Equal(result, "AhmetMehmetCan");
 
         }
+
+        [Fact]
+        public void Array_Contructor_Test()
+        {
+            // Arrange
+            var array = new Array.Array(36,23,55,44,61);
+
+            // Act
+            var result = array.Capacity; // 5
+            
+            var result2 = String.Empty;
+            foreach (var item in array)
+            {
+                result2 = string.Concat(result2, item);
+            }
+
+            // Assert
+            Assert.Equal(5, result);
+            Assert.Equal("3623554461", result2);
+        }
+
+        [Fact]
+        public void Array_SetItem_Test()
+        {
+            // Arrange : Düzenleme
+            var numbers = new Array.Array(1, 3, 5, 7);
+
+            // Act : Eylem
+            numbers.SetItem(2, 55);
+
+            // Assert : Ýddia
+            Assert.Equal(55,numbers.GetItem(2));
+            Assert.True(numbers.GetItem(2).Equals(55));
+        }
     }
 }

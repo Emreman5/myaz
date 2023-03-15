@@ -63,11 +63,14 @@ public class Array : IEnumerable
     /// <summary>
     /// Week 2 - Implematation 1
     /// SetItem içerisinde verilen pozisyon değeri aralık dışarısında ise hata fırlatılmalı.
+    /// Exception() // IndexOutOfRangeException()
     /// </summary>
     /// <param name="position"></param>
     /// <param name="item"></param>
     public void SetItem(int position, Object item)
     {
+        if (position < 0 || position >= _InnerArray.Length)
+            throw new IndexOutOfRangeException();
         _InnerArray[position] = item;
     }
 
@@ -81,7 +84,22 @@ public class Array : IEnumerable
     /// <exception cref="NotImplementedException"></exception>
     public Object RemoveItem(int position)
     {
-        throw new NotImplementedException();
+        var item = GetItem(position);
+        SetItem(position, null);
+        for(int i=position; i< Count-1; i++)
+        {
+            // _InnerArray[i] = _InnerArray[i + 1];
+            Swap(i, i + 1);
+        }
+        index--;
+        if(index == _InnerArray.Length / 2)
+        {
+            var newArray = new Object[_InnerArray.Length / 2];
+            System.Array.Copy(_InnerArray, newArray, newArray.Length);
+            _InnerArray = newArray;
+        }
+        return item;
+        
     }
 
     /// <summary>
@@ -120,10 +138,23 @@ public class Array : IEnumerable
     /// Verilen pozisyon bilgileri kontrol edilmelidir.
     /// </summary>
     /// <returns></returns>
+    public Object[] Copy(int v1, int v2)
+    {
+        var newArray = new Object[v2]; // v2 - v1
+        int j = 0;
+        for(int i=v1; i < v2; i++)
+        {
+            newArray[j] = GetItem(i); // Object
+            j++;
+        }
 
+        return newArray;
+    }
 
     public IEnumerator GetEnumerator()
     {
         return _InnerArray.GetEnumerator();
     }
+
+    
 }

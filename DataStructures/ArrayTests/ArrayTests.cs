@@ -190,5 +190,49 @@ namespace ArrayTests
             Assert.Equal(item1, 1);
             Assert.Equal(item2, -1);
         }
+
+        /// <summary>
+        /// Week 2 - Test
+        /// </summary>
+        [Fact]
+        public void Array_Remove_Test()
+        {
+            // Arrange
+            var array = new Array.Array();
+            array.Add(0);   // 0
+            array.Add(1);   // 1
+            array.Add(2);   // 2
+            array.Add(3);   // 3
+            array.Add(4);   // 4
+
+            // Act
+            var item = array.RemoveItem(2);
+            var item2 = array.GetItem(2);
+            array.RemoveItem(3);
+            
+            // Assert
+            Assert.Equal(2, item);
+            Assert.Equal(3, item2);
+            Assert.Equal(4, array.Capacity);
+        }
+
+        [Fact]
+        public void Array_Copy_Test()
+        {
+            // Arrange
+            var array = new Array.Array();
+            
+            array.Add("Ahmet");     // 0
+            array.Add("Mehmet");    // 1
+            array.Add("Can");       // 2
+            array.Add("Deniz");     // 3
+
+            // Act
+            var newArray = array.Copy(2, 3);
+            var item = newArray[0];
+
+            // Assert
+            Assert.Equal("Can", item);
+        }
     }
 }

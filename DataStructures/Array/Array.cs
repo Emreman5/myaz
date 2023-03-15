@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 
 namespace Array;
 public class Array : IEnumerable
@@ -58,18 +59,27 @@ public class Array : IEnumerable
         return _InnerArray[position];
     }
 
+
+    /// <summary>
+    /// Week 2 - Implematation 1
+    /// SetItem içerisinde verilen pozisyon değeri aralık dışarısında ise hata fırlatılmalı.
+    /// </summary>
+    /// <param name="position"></param>
+    /// <param name="item"></param>
     public void SetItem(int position, Object item)
     {
         _InnerArray[position] = item;
     }
 
     /// <summary>
-    /// Week 1 - Implementation 1 
-    /// 
+    /// Week 2 - Implementation 2 
+    /// Remove işleminde girilen pozisyondaki eleman çıkarılmalıdır.
+    /// Çıkarma işleminden sonra eleman geri döndürülmelidir.
+    /// Çıkarılan elemanın yerine diğerleri kaydırılmalıdır.
     /// </summary>
     /// <param name="position"></param>
     /// <exception cref="NotImplementedException"></exception>
-    public void RemoveItem(Object item)
+    public Object RemoveItem(int position)
     {
         throw new NotImplementedException();
     }
@@ -102,6 +112,15 @@ public class Array : IEnumerable
         }
         return -1;
     }
+
+    /// <summary>
+    /// Week 2 - Implementation 3
+    /// Verilen değer aralındaki elemanlar kopyalanmalıdır.
+    /// Geri dönüş değeri dizidir.
+    /// Verilen pozisyon bilgileri kontrol edilmelidir.
+    /// </summary>
+    /// <returns></returns>
+
 
     public IEnumerator GetEnumerator()
     {

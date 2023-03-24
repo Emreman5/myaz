@@ -24,7 +24,12 @@ namespace List
         /// <exception cref="NotImplementedException"></exception>
         public void Add(T item)
         {
-            throw new NotImplementedException();
+            if (index == _list.Length)
+            {
+                DoubleList(_list);
+            }
+            // throw new NotImplementedException();
+            _list[index++] = item;
         }
 
         public void DoubleList(T[] list)
@@ -41,7 +46,12 @@ namespace List
         /// <exception cref="NotImplementedException"></exception>
         public void AddRange(IEnumerable<T> collection)
         {
-            throw new NotImplementedException();
+            // throw new NotImplementedException();
+
+            foreach (var item in collection)
+            {
+                Add(item);
+            }
         }
 
         /// <summary>
@@ -54,7 +64,27 @@ namespace List
         /// <exception cref="NotImplementedException"></exception>
         public bool Remove(T item)
         {
-            throw new NotImplementedException();
+            // throw new NotImplementedException();
+            for (int i = 0; i < _list.Length; i++)
+            {
+                if (_list[i].Equals(item))
+                {
+                    _list[i] = default(T);
+                    for (int j = i; j < _list.Length - 1; j++)
+                    {
+                        T temp = _list[j];
+                        _list[j] = _list[j + 1];
+                        _list[j + 1] = temp;
+                    }
+
+                    index--;
+                    if (index == _list.Length / 2)
+                        HalfList(_list);
+                    return true;
+                }
+            }
+
+            return false;
         }
 
         public void HalfList(T[] list)
@@ -72,7 +102,16 @@ namespace List
         /// <exception cref="NotImplementedException"></exception>
         public void RemoveAt(int index)
         {
-            throw new NotImplementedException();
+            // throw new NotImplementedException();
+
+            _list[index] = default(T);
+
+            for (int i = index; i < _list.Length - 1; i++)
+            {
+                T temp = _list[i];
+                _list[i] = _list[i + 1];
+                _list[i + 1] = temp;
+            }
         }
 
         /// <summary>
@@ -82,7 +121,19 @@ namespace List
         /// <exception cref="NotImplementedException"></exception>
         public T[] InterSect(IEnumerable<T> collection)
         {
-            throw new NotImplementedException();
+            // throw new NotImplementedException();
+            T[] newList = new T[_list.Length];
+            int i = 0;
+            foreach (T item in _list.Intersect(collection).ToList())
+            {
+                if (item != null)
+                {
+                    newList[i] = item;
+                    i++;
+                }
+            }
+
+            return newList;
         }
 
         /// <summary>
@@ -91,9 +142,20 @@ namespace List
         /// <param name="collection"></param>
         /// <exception cref="NotImplementedException"></exception>
         public T[] Union(IEnumerable<T> collection)
-        { 
-            throw new NotImplementedException();
-            
+        {
+            // throw new NotImplementedException();
+            T[] newList = new T[_list.Length + collection.Count()];
+            int i = 0;
+            foreach (T item in _list.Union(collection).ToList())
+            {
+                if (item != null)
+                {
+                    newList[i] = item;
+                    i++;
+                }
+            }
+
+            return newList;
         }
 
         /// <summary>
@@ -103,7 +165,19 @@ namespace List
         /// <exception cref="NotImplementedException"></exception>
         public T[] Except(IEnumerable<T> collection)
         {
-            throw new NotImplementedException();
+            // throw new NotImplementedException();
+            T[] newList = new T[_list.Length];
+            int i = 0;
+            foreach (T item in _list.Except(collection).ToList())
+            {
+                if (item != null)
+                {
+                    newList[i] = item;
+                    i++;
+                }
+            }
+
+            return newList;
         }
 
         public IEnumerator<T> GetEnumerator()

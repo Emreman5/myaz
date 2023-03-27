@@ -1,0 +1,12 @@
+E:\MYAZ20420623\DataStructures\LinkedList\bin\Debug\net6.0\LinkedList.deps.json
+E:\MYAZ20420623\DataStructures\LinkedList\bin\Debug\net6.0\LinkedList.dll
+E:\MYAZ20420623\DataStructures\LinkedList\bin\Debug\net6.0\LinkedList.pdb
+E:\MYAZ20420623\DataStructures\LinkedList\obj\Debug\net6.0\LinkedList.csproj.AssemblyReference.cache
+E:\MYAZ20420623\DataStructures\LinkedList\obj\Debug\net6.0\LinkedList.GeneratedMSBuildEditorConfig.editorconfig
+E:\MYAZ20420623\DataStructures\LinkedList\obj\Debug\net6.0\LinkedList.AssemblyInfoInputs.cache
+E:\MYAZ20420623\DataStructures\LinkedList\obj\Debug\net6.0\LinkedList.AssemblyInfo.cs
+E:\MYAZ20420623\DataStructures\LinkedList\obj\Debug\net6.0\LinkedList.csproj.CoreCompileInputs.cache
+E:\MYAZ20420623\DataStructures\LinkedList\obj\Debug\net6.0\LinkedList.dll
+E:\MYAZ20420623\DataStructures\LinkedList\obj\Debug\net6.0\refint\LinkedList.dll
+E:\MYAZ20420623\DataStructures\LinkedList\obj\Debug\net6.0\LinkedList.pdb
+E:\MYAZ20420623\DataStructures\LinkedList\obj\Debug\net6.0\ref\LinkedList.dll

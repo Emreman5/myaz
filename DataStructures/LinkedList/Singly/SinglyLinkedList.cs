@@ -95,10 +95,51 @@ namespace LinkedList.Singly
                 prev = current;
                 current = current.Next;
             }
-            throw new Exception("The node could not be found int the linked list.");
+            throw new Exception("The node could not be found in the linked list.");
         }
 
+        /// <summary>
+        /// Week 4 - Verilen düğümden sonraya verilen T değerini ekler.
+        /// </summary>
+        /// <param name="node"></param>
+        /// <param name="item"></param>
+        /// <exception cref="NotImplementedException"></exception>
+        public void AddAfter(SinglyLinkedListNode<T> node, T item)
+        {
+            throw new NotImplementedException();
+        }
 
-        
+        /// <summary>
+        /// Week 4 - Bağlı listenin başındaki düğümü çıkarır.
+        /// Çıkarılan düğümün değerini geri döndürür.
+        /// </summary>
+        /// <returns></returns>
+        public T RemoveFirst()
+        {
+            throw new NotImplementedException();
+        }
+
+        /// <summary>
+        /// Week 4 - Bağlı listenin sonundaki düğümü çıkarır.
+        /// Çıkarılan düğümün değerini geri döndürür.
+        /// </summary>
+        /// <returns></returns>
+        public T RemoveLast()
+        {
+            throw new NotImplementedException();
+        }
+
+        /// <summary>
+        /// Week 4 - Bağlı listeden verilen düğümü çıkarır.
+        /// Eğer düğüm bağlı listede bulunmuyorsa hata fırlatır.
+        /// Çıkarılan değeri geri döndürür.
+        /// </summary>
+        /// <param name="node"></param>
+        /// <returns></returns>
+        /// <exception cref="NotImplementedException"></exception>
+        public T Remove(SinglyLinkedListNode<T> node)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

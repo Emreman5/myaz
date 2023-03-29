@@ -27,19 +27,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\zafer\\.nuget\\packages\\": {}
+    "C:\\Users\\PREDATOR\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\MYAZ20420623\\DataStructures\\ArrayConsoleApp\\ArrayConsoleApp.csproj",
+      "projectUniqueName": "C:\\Users\\PREDATOR\\source\\repos\\MYAZ20420623\\DataStructures\\ArrayConsoleApp\\ArrayConsoleApp.csproj",
       "projectName": "ArrayConsoleApp",
-      "projectPath": "E:\\MYAZ20420623\\DataStructures\\ArrayConsoleApp\\ArrayConsoleApp.csproj",
-      "packagesPath": "C:\\Users\\zafer\\.nuget\\packages\\",
-      "outputPath": "E:\\MYAZ20420623\\DataStructures\\ArrayConsoleApp\\obj\\",
+      "projectPath": "C:\\Users\\PREDATOR\\source\\repos\\MYAZ20420623\\DataStructures\\ArrayConsoleApp\\ArrayConsoleApp.csproj",
+      "packagesPath": "C:\\Users\\PREDATOR\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\PREDATOR\\Source\\Repos\\MYAZ20420623\\DataStructures\\ArrayConsoleApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\zafer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\PREDATOR\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -53,8 +53,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\MYAZ20420623\\DataStructures\\Array\\Array.csproj": {
-              "projectPath": "E:\\MYAZ20420623\\DataStructures\\Array\\Array.csproj"
+            "C:\\Users\\PREDATOR\\source\\repos\\MYAZ20420623\\DataStructures\\Array\\Array.csproj": {
+              "projectPath": "C:\\Users\\PREDATOR\\source\\repos\\MYAZ20420623\\DataStructures\\Array\\Array.csproj"
             }
           }
         }
@@ -84,7 +84,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

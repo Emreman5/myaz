@@ -6114,19 +6114,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\zafer\\.nuget\\packages\\": {}
+    "C:\\Users\\PREDATOR\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\MYAZ20420623\\DataStructures\\CollectionTests\\CollectionTests.csproj",
+      "projectUniqueName": "C:\\Users\\PREDATOR\\Source\\Repos\\MYAZ20420623\\DataStructures\\CollectionTests\\CollectionTests.csproj",
       "projectName": "CollectionTests",
-      "projectPath": "E:\\MYAZ20420623\\DataStructures\\CollectionTests\\CollectionTests.csproj",
-      "packagesPath": "C:\\Users\\zafer\\.nuget\\packages\\",
-      "outputPath": "E:\\MYAZ20420623\\DataStructures\\CollectionTests\\obj\\",
+      "projectPath": "C:\\Users\\PREDATOR\\Source\\Repos\\MYAZ20420623\\DataStructures\\CollectionTests\\CollectionTests.csproj",
+      "packagesPath": "C:\\Users\\PREDATOR\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\PREDATOR\\Source\\Repos\\MYAZ20420623\\DataStructures\\CollectionTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\zafer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\PREDATOR\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6189,7 +6189,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

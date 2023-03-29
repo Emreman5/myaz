@@ -1,4 +1,4 @@
-using LinkedList.Singly;
+﻿using LinkedList.Singly;
 
 namespace SinglyLinkedListTests
 {
@@ -112,6 +112,134 @@ namespace SinglyLinkedListTests
 
             // assert
             Assert.Throws<Exception>(() => linkedList.AddBefore(node, 'x'));
+        }
+
+        /// <summary>
+        /// Week 4 - AddAfter Test
+        /// </summary>
+        [Fact]
+        public void SinglyLinkedList_AddAfter_Test()
+        {
+            // arrange 
+            var linkedList = new SinglyLinkedList<char>();
+            linkedList.AddFirst('a');   // a
+            linkedList.AddFirst('b');   // b - a
+            linkedList.AddFirst('c');   // c - b - a
+
+            linkedList.AddAfter(linkedList.Head.Next, 'x');  // c b [x] a
+
+
+            // assert
+            Assert.Equal(linkedList.Head.Value, 'c');
+            Assert.Equal(linkedList.Head.Next.Next.Value, 'x');
+
+        }
+
+        /// <summary>
+        /// Week 4 - AddAfter Hata Firlatma Test
+        /// </summary>
+        [Fact]
+        public void SinglyLinkedList_AddAfter_Throw_ExceptionTest()
+        {
+            // arrange 
+            var linkedList = new SinglyLinkedList<char>();
+            linkedList.AddFirst('a');   // a
+            linkedList.AddFirst('b');   // b - a
+            linkedList.AddFirst('c');   // c - b - a
+
+            var node = new SinglyLinkedListNode<char>('y');
+
+            // assert
+            Assert.Throws<Exception>(() => linkedList.AddBefore(node, 'x'));
+        }
+
+        /// <summary>
+        /// Week 4 - RemoveFirst Test
+        /// </summary>
+        [Fact]
+        public void SinglyLinkedList_RemoveFirst_Test()
+        {
+            // arrange 
+            var linkedList = new SinglyLinkedList<char>();
+            linkedList.AddFirst('a');   // a
+            linkedList.AddFirst('b');   // b - a
+            linkedList.AddFirst('c');   // c - b - a
+
+            var item = linkedList.RemoveFirst();  // b a
+
+
+            // assert
+            Assert.Equal('c', item);
+            Assert.Equal('b', linkedList.Head.Value);
+        }
+
+        /// <summary>
+        /// Week 4 - RemoveFirst Tek Eleman Test
+        /// </summary>
+        [Fact]
+        public void SinglyLinkedList_RemoveFirst_One_Item_Test()
+        {
+            // arrange 
+            var linkedList = new SinglyLinkedList<char>();
+            linkedList.AddFirst('a');   // a
+
+            var item = linkedList.RemoveFirst();  // null
+
+
+            // assert
+            Assert.Equal('a', item);
+            Assert.True(linkedList.Head is null);
+        }
+
+        /// <summary>
+        /// Week 4 - RemoveFirst Hata Firlatma Test
+        /// </summary>
+        [Fact]
+        public void SinglyLinkedList_RemoveFirst_Exception_Test()
+        {
+            // arrange 
+            var linkedList = new SinglyLinkedList<char>();
+
+            // assert
+            Assert.Throws<Exception>(() => linkedList.RemoveFirst());
+        }
+
+        /// <summary>
+        /// Week 4 - RemoveLast Test
+        /// </summary>
+        [Fact]
+        public void SinglyLinkedList_RemoveLast_Test()
+        {
+            // arrange 
+            var linkedList = new SinglyLinkedList<char>();
+            linkedList.AddFirst('a');   // a
+            linkedList.AddFirst('b');   // b - a
+            linkedList.AddFirst('c');   // c - b - a
+
+            // act
+            var item1 = linkedList.RemoveLast();
+            var item2 = linkedList.RemoveLast();
+            var item3 = linkedList.RemoveLast();
+
+            // assert
+            Assert.Equal('c', item1);
+            Assert.Equal('b', item2);
+            
+            // -> Son eleman
+            Assert.Equal('a', item3);
+        }
+
+        /// <summary>
+        /// Week 4 - RemoveLast Hata Firlatma Test
+        /// </summary>
+        [Fact]
+        public void SinglyLinkedList_RemoveLast_Exception_Test()
+        {
+            // arrange 
+            var linkedList = new SinglyLinkedList<char>();
+
+            // assert
+            Assert.Throws<Exception>(() => linkedList.RemoveLast());
         }
     }
 }

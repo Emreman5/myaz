@@ -13,7 +13,7 @@ namespace LinkedList.Singly
 
         public SinglyLinkedList()
         {
-            
+
         }
 
         /// <summary>
@@ -48,7 +48,7 @@ namespace LinkedList.Singly
         {
             // T ifadesini düğüme çevir
             var node = new SinglyLinkedListNode<T>(item);
-            
+
             // Head kontrol et
             if (Head is null)
             {
@@ -73,7 +73,7 @@ namespace LinkedList.Singly
         /// </summary>
         public void AddBefore(SinglyLinkedListNode<T> node, T item)
         {
-            if(Head is null)
+            if (Head is null)
             {
                 AddFirst(item);
                 return;
@@ -83,8 +83,8 @@ namespace LinkedList.Singly
 
             var current = Head;
             var prev = current;
-            
-            while(current is not null)
+
+            while (current is not null)
             {
                 if (current.Equals(node))
                 {
@@ -106,7 +106,29 @@ namespace LinkedList.Singly
         /// <exception cref="NotImplementedException"></exception>
         public void AddAfter(SinglyLinkedListNode<T> node, T item)
         {
-            throw new NotImplementedException();
+            // throw new NotImplementedException();
+
+            SinglyLinkedListNode<T> new_node = new SinglyLinkedListNode<T>(item);
+
+            if (Head is null)
+            {
+                AddFirst(item);
+            }
+
+            var current = Head;
+            while (current is not null)
+            {
+                if (current.Equals(node))
+                {
+                    new_node.Next = current.Next;
+                    current.Next = new_node;
+                    return;
+                }
+
+                current = current.Next;
+            }
+
+            throw new Exception("The node could not be found in the linked list.");
         }
 
         /// <summary>
@@ -116,7 +138,18 @@ namespace LinkedList.Singly
         /// <returns></returns>
         public T RemoveFirst()
         {
-            throw new NotImplementedException();
+            // throw new NotImplementedException();
+
+            if (Head is null)
+            {
+                throw new Exception("Linked list is empty!");
+            }
+
+            T item = Head.Value;
+
+            Head = Head.Next;
+
+            return item;
         }
 
         /// <summary>
@@ -126,7 +159,35 @@ namespace LinkedList.Singly
         /// <returns></returns>
         public T RemoveLast()
         {
-            throw new NotImplementedException();
+            // throw new NotImplementedException();
+
+            if (Head is null)
+            {
+                throw new Exception("Linked list is empty!");
+            }
+
+            var current = Head;
+
+            if (current.Next is null)
+            {
+                T item = current.Value;
+                Head = null;
+                return item;
+            }
+
+            while (current is not null)
+            {
+                if (current.Next.Next is null)
+                {
+                    T item = current.Next.Value;
+                    current.Next = null;
+                    return item;
+                }
+
+                current = current.Next;
+            }
+
+            throw new Exception();
         }
 
         /// <summary>
@@ -139,7 +200,24 @@ namespace LinkedList.Singly
         /// <exception cref="NotImplementedException"></exception>
         public T Remove(SinglyLinkedListNode<T> node)
         {
-            throw new NotImplementedException();
+            if (Head is null)
+                throw new Exception("The linked list is empty!");
+
+            if (Head.Value.Equals(node.Value))
+                return RemoveFirst();
+
+            var current = Head;
+            while (current.Next != null)
+            {
+                if (current.Next.Value.Equals(node.Value))
+                {
+                    T item = node.Value;
+                    current.Next = current.Next.Next;
+                    return item;
+                }
+                current = current.Next;
+            }
+            throw new Exception("Node not found!");
         }
     }
 }

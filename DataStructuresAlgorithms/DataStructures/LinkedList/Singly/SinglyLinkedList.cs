@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LinkedList.Singly
 {
-    public class SinglyLinkedList<T>
+    public partial class SinglyLinkedList<T>
     {
         // Auto-implemented propert
         public SinglyLinkedListNode<T>? Head { get; set; }

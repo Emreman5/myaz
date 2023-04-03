@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace LinkedList.Singly
 {
-    public partial class SinglyLinkedList<T>
+    public partial class SinglyLinkedList<T> : IEnumerable<T>
     {
         // Auto-implemented propert
         public SinglyLinkedListNode<T>? Head { get; set; }
@@ -14,6 +15,17 @@ namespace LinkedList.Singly
         public SinglyLinkedList()
         {
 
+        }
+        /// <summary>
+        /// Iterable olan her hangi bir veriyi / koleksiyonu parametre olarak alsın ve 
+        /// bağlı listeye çevirsin.
+        /// </summary>
+        public SinglyLinkedList(IEnumerable<T> collection)
+        {
+            foreach (var item in collection)
+            {
+                AddFirst(item); // O(1)
+            }
         }
 
         /// <summary>
@@ -218,6 +230,16 @@ namespace LinkedList.Singly
                 current = current.Next;
             }
             throw new Exception("Node not found!");
+        }
+
+        public IEnumerator<T> GetEnumerator()
+        {
+            return new SinglyLinkedListEnumerator<T>(Head);
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return GetEnumerator();
         }
     }
 }

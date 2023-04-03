@@ -1,12 +1,14 @@
 ﻿using LinkedList.Singly;
 
 
-var linkedList = new SinglyLinkedList<int>(new SortedSet<int>
-{
-    5, 3, 4, 2, 7
-});
+var linkedList = new SinglyLinkedList<char>();
+linkedList.AddLast('a');
+linkedList.AddLast('b');
+linkedList.AddLast('c');
+linkedList.AddFirst('x');
+linkedList.AddBefore(linkedList.Head.Next, 'y');
 
-// 2 4 3 5 7
+// x y a b c
 foreach (var item in linkedList)
 {
     Console.WriteLine(item);

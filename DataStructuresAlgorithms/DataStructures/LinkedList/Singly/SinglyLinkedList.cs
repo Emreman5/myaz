@@ -16,17 +16,15 @@ namespace LinkedList.Singly
         {
 
         }
-        /// <summary>
-        /// Iterable olan her hangi bir veriyi / koleksiyonu parametre olarak alsın ve 
-        /// bağlı listeye çevirsin.
-        /// </summary>
+
         public SinglyLinkedList(IEnumerable<T> collection)
         {
             foreach (var item in collection)
             {
-                AddFirst(item); // O(1)
+                AddFirst(item);
             }
         }
+
 
         /// <summary>
         /// Bağlı listenin başına eleman ekler

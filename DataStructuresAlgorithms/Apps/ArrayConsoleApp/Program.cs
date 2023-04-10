@@ -1,5 +1,4 @@
-﻿
-// overloading 
+﻿// overloading 
 var names = new Array.Array("Ahmet", "Mehmet", "Büşra", "Can","Burcu");
 
 names.SetItem(1, "Melike");

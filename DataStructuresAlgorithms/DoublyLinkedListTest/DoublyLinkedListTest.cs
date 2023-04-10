@@ -124,8 +124,7 @@ namespace DoublyLinkedListTest
                 item => Assert.Equal(55, item),
                 item => Assert.Equal(61, item),
                 item => Assert.Equal(23, item),
-                item => Assert.Equal(44, item)
-                );
+                item => Assert.Equal(44, item));
         }
     }
 }

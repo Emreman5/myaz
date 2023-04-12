@@ -11,6 +11,14 @@ namespace Stack
             _innerList = new SinglyLinkedList<T>();
         }
 
+        public LinkedListStack(IEnumerable<T> collection) : this()
+        {
+            foreach (var item in collection)
+            {
+                Push(item);
+            }
+        }
+
         public int Count => _innerList.Count; 
 
        
@@ -28,8 +36,6 @@ namespace Stack
             return _innerList.RemoveFirst();
         }
 
-        // 3 5 7 9
-        // [9] -> 7-> 5 -> 3
         public void Push(T item)
         {
             _innerList.AddFirst(item);

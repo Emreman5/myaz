@@ -54,5 +54,16 @@ namespace StackTests
             Assert.Equal("Can", result);
 
         }
+
+        [Fact]
+        public void LinkedListStack_Constructor_IEnumerable_Test()
+        {
+            // Arrange & Act
+            var stack = new ArrayStack<int>(new List<int>() { 10, 20, 30 });
+
+            // Assert
+            Assert.Equal(stack.Count, 3);
+            Assert.Equal(stack.Peek(), 30);
+        }
     }
 }

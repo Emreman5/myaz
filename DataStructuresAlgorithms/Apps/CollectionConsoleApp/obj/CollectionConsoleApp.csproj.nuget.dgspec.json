@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\MYAZ20420623\\DataStructuresAlgorithms\\Apps\\CollectionConsoleApp\\CollectionConsoleApp.csproj": {}
+    "C:\\Users\\PREDATOR\\source\\repos\\MYAZ20420623\\DataStructuresAlgorithms\\Apps\\CollectionConsoleApp\\CollectionConsoleApp.csproj": {}
   },
   "projects": {
-    "E:\\MYAZ20420623\\DataStructuresAlgorithms\\Apps\\CollectionConsoleApp\\CollectionConsoleApp.csproj": {
+    "C:\\Users\\PREDATOR\\source\\repos\\MYAZ20420623\\DataStructuresAlgorithms\\Apps\\CollectionConsoleApp\\CollectionConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\MYAZ20420623\\DataStructuresAlgorithms\\Apps\\CollectionConsoleApp\\CollectionConsoleApp.csproj",
+        "projectUniqueName": "C:\\Users\\PREDATOR\\source\\repos\\MYAZ20420623\\DataStructuresAlgorithms\\Apps\\CollectionConsoleApp\\CollectionConsoleApp.csproj",
         "projectName": "CollectionConsoleApp",
-        "projectPath": "E:\\MYAZ20420623\\DataStructuresAlgorithms\\Apps\\CollectionConsoleApp\\CollectionConsoleApp.csproj",
-        "packagesPath": "C:\\Users\\zafer\\.nuget\\packages\\",
-        "outputPath": "E:\\MYAZ20420623\\DataStructuresAlgorithms\\Apps\\CollectionConsoleApp\\obj\\",
+        "projectPath": "C:\\Users\\PREDATOR\\source\\repos\\MYAZ20420623\\DataStructuresAlgorithms\\Apps\\CollectionConsoleApp\\CollectionConsoleApp.csproj",
+        "packagesPath": "C:\\Users\\PREDATOR\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PREDATOR\\Source\\Repos\\MYAZ20420623\\DataStructuresAlgorithms\\Apps\\CollectionConsoleApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\zafer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PREDATOR\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

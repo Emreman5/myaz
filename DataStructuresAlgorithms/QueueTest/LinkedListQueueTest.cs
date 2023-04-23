@@ -2,7 +2,7 @@ using Queue;
 
 namespace QueueTest
 {
-    public class QueueTest
+    public class LinkedListQueueTest
     {
         [Fact]
         public void QueueEnqueueTest()

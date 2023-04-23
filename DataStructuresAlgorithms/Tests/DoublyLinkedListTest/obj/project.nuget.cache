@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8IaQBhiQFN5Tey3G0jwKS8mhRPpQQyj705xrX1Mx4wpcA5BWy2uabofHPIySChVwKzoukF9zCiMn+7C0e4kB2Q==",
+  "dgSpecHash": "CbBqRHnKPLAzJ/TE/8KoqRm1W73Kmnfd2kE1lQPjqPEQSl+OQpMhpES4HJGv3svLgoTkSnmHEzOGFz4JqRIfKA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PREDATOR\\source\\repos\\MYAZ20420623\\DataStructuresAlgorithms\\Tests\\DoublyLinkedListTest\\DoublyLinkedListTest.csproj",
+  "projectFilePath": "C:\\Users\\PREDATOR\\Source\\Repos\\MYAZ20420623\\DataStructuresAlgorithms\\Tests\\DoublyLinkedListTest\\DoublyLinkedListTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PREDATOR\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\PREDATOR\\.nuget\\packages\\microsoft.codecoverage\\17.3.2\\microsoft.codecoverage.17.3.2.nupkg.sha512",

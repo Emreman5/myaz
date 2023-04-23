@@ -6153,9 +6153,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PREDATOR\\source\\repos\\MYAZ20420623\\DataStructuresAlgorithms\\Tests\\StackTests\\StackTests.csproj",
+      "projectUniqueName": "C:\\Users\\PREDATOR\\Source\\Repos\\MYAZ20420623\\DataStructuresAlgorithms\\Tests\\StackTests\\StackTests.csproj",
       "projectName": "StackTests",
-      "projectPath": "C:\\Users\\PREDATOR\\source\\repos\\MYAZ20420623\\DataStructuresAlgorithms\\Tests\\StackTests\\StackTests.csproj",
+      "projectPath": "C:\\Users\\PREDATOR\\Source\\Repos\\MYAZ20420623\\DataStructuresAlgorithms\\Tests\\StackTests\\StackTests.csproj",
       "packagesPath": "C:\\Users\\PREDATOR\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\PREDATOR\\Source\\Repos\\MYAZ20420623\\DataStructuresAlgorithms\\Tests\\StackTests\\obj\\",
       "projectStyle": "PackageReference",
@@ -6174,8 +6174,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\PREDATOR\\source\\repos\\MYAZ20420623\\DataStructuresAlgorithms\\DataStructures\\Stack\\Stack.csproj": {
-              "projectPath": "C:\\Users\\PREDATOR\\source\\repos\\MYAZ20420623\\DataStructuresAlgorithms\\DataStructures\\Stack\\Stack.csproj"
+            "C:\\Users\\PREDATOR\\Source\\Repos\\MYAZ20420623\\DataStructuresAlgorithms\\DataStructures\\Stack\\Stack.csproj": {
+              "projectPath": "C:\\Users\\PREDATOR\\Source\\Repos\\MYAZ20420623\\DataStructuresAlgorithms\\DataStructures\\Stack\\Stack.csproj"
             }
           }
         }

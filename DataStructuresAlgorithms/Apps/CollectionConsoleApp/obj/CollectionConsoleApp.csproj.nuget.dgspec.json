@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PREDATOR\\source\\repos\\MYAZ20420623\\DataStructuresAlgorithms\\Apps\\CollectionConsoleApp\\CollectionConsoleApp.csproj": {}
+    "C:\\Users\\PREDATOR\\Source\\Repos\\MYAZ20420623\\DataStructuresAlgorithms\\Apps\\CollectionConsoleApp\\CollectionConsoleApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PREDATOR\\source\\repos\\MYAZ20420623\\DataStructuresAlgorithms\\Apps\\CollectionConsoleApp\\CollectionConsoleApp.csproj": {
+    "C:\\Users\\PREDATOR\\Source\\Repos\\MYAZ20420623\\DataStructuresAlgorithms\\Apps\\CollectionConsoleApp\\CollectionConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PREDATOR\\source\\repos\\MYAZ20420623\\DataStructuresAlgorithms\\Apps\\CollectionConsoleApp\\CollectionConsoleApp.csproj",
+        "projectUniqueName": "C:\\Users\\PREDATOR\\Source\\Repos\\MYAZ20420623\\DataStructuresAlgorithms\\Apps\\CollectionConsoleApp\\CollectionConsoleApp.csproj",
         "projectName": "CollectionConsoleApp",
-        "projectPath": "C:\\Users\\PREDATOR\\source\\repos\\MYAZ20420623\\DataStructuresAlgorithms\\Apps\\CollectionConsoleApp\\CollectionConsoleApp.csproj",
+        "projectPath": "C:\\Users\\PREDATOR\\Source\\Repos\\MYAZ20420623\\DataStructuresAlgorithms\\Apps\\CollectionConsoleApp\\CollectionConsoleApp.csproj",
         "packagesPath": "C:\\Users\\PREDATOR\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\PREDATOR\\Source\\Repos\\MYAZ20420623\\DataStructuresAlgorithms\\Apps\\CollectionConsoleApp\\obj\\",
         "projectStyle": "PackageReference",

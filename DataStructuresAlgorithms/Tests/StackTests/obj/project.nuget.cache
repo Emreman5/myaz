@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aWmEcJFFNDNAOkbQMY1weLuNVV/pisVScoWIqxdo0nQ6o1NzT0C8hSiDmYaZ724bhGb5E5Cl6Z8UX3nyFOPfDA==",
+  "dgSpecHash": "BXYh+Eddq5CPeWi06AQn51Cye1uOtSAFUNBkaymE7pZQxKa7cb2FV/9GXHMcmKODgSZFPNTvZsoBJy8dXgrnRw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PREDATOR\\source\\repos\\MYAZ20420623\\DataStructuresAlgorithms\\Tests\\StackTests\\StackTests.csproj",
+  "projectFilePath": "C:\\Users\\PREDATOR\\Source\\Repos\\MYAZ20420623\\DataStructuresAlgorithms\\Tests\\StackTests\\StackTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PREDATOR\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\PREDATOR\\.nuget\\packages\\microsoft.codecoverage\\17.3.2\\microsoft.codecoverage.17.3.2.nupkg.sha512",

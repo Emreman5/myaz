@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Array
 {
-    public partial class Array : IEnumerable
+    public partial class ArrayProblem : IEnumerable
     {
         /// <summary>
         /// Concate fonksiyonu parametre olarak aldığı array ifadesini 
@@ -18,6 +18,11 @@ namespace Array
         /// </summary>
         /// <param name="array">Birleştirilecek diziyi temsil eder.</param>
         public void Concate(Object[] array)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerator GetEnumerator()
         {
             throw new NotImplementedException();
         }

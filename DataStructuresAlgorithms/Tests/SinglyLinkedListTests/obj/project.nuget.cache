@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eLeIH77Gts4g0mY7BQ0QvQFTgNUSWHlN4JjS8srXkjKl0Ogj5HG2vMc/Pm19PHGixBeAKhUUs3SvE5NjQuky8Q==",
+  "dgSpecHash": "cOrCQWHTY5V2LM4ceDyaLFtwTa5vZI4olJuwcfO/7vDQX1Lupyvhzim2flfKNTejpE3NRwhmF2cdu3OVOvSnYw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PREDATOR\\source\\repos\\MYAZ20420623\\DataStructuresAlgorithms\\Tests\\SinglyLinkedListTests\\SinglyLinkedListTests.csproj",
+  "projectFilePath": "C:\\Users\\PREDATOR\\Source\\Repos\\MYAZ20420623\\DataStructuresAlgorithms\\Tests\\SinglyLinkedListTests\\SinglyLinkedListTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PREDATOR\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\PREDATOR\\.nuget\\packages\\microsoft.codecoverage\\17.3.2\\microsoft.codecoverage.17.3.2.nupkg.sha512",

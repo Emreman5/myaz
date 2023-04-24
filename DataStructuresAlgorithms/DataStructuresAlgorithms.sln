@@ -37,6 +37,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QueueTest", "Tests\QueueTes
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Queue", "DataStructures\Queue\Queue.csproj", "{12B86403-4A5E-4EC3-806F-575CBF321F8E}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BigOWebApp", "Apps\BigOWebApp\BigOWebApp.csproj", "{89556C77-13CC-43D4-8AE9-A1EBFDA5824F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{12B86403-4A5E-4EC3-806F-575CBF321F8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12B86403-4A5E-4EC3-806F-575CBF321F8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12B86403-4A5E-4EC3-806F-575CBF321F8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89556C77-13CC-43D4-8AE9-A1EBFDA5824F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89556C77-13CC-43D4-8AE9-A1EBFDA5824F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89556C77-13CC-43D4-8AE9-A1EBFDA5824F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89556C77-13CC-43D4-8AE9-A1EBFDA5824F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -118,6 +124,7 @@ Global
 		{BC55027A-515F-452B-B401-2EB42BBF164B} = {6235409D-1923-4442-BB35-8357CDE32D91}
 		{892C4838-D685-484C-A910-69A01C695858} = {6235409D-1923-4442-BB35-8357CDE32D91}
 		{12B86403-4A5E-4EC3-806F-575CBF321F8E} = {7549C033-558D-4992-B2A8-BB115FDAC7C5}
+		{89556C77-13CC-43D4-8AE9-A1EBFDA5824F} = {E170C4C6-D36B-414B-AA62-2FB22E56DE70}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {99227D7D-357F-4559-8263-745D037EEFC5}

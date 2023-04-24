@@ -1,5 +1,5 @@
 ﻿// overloading 
-var names = new Array.Array("Ahmet", "Mehmet", "Büşra", "Can","Burcu");
+var names = new Array.Array<string>("Ahmet", "Mehmet", "Büşra", "Can","Burcu");
 
 names.SetItem(1, "Melike");
 
@@ -20,7 +20,7 @@ foreach (var number in numbers)
 Console.ReadKey();
 #region week-01
 // array bir instance (örnektir)
-var array = new Array.Array();
+var array = new Array.Array<string>();
 
 
 array.Add("Ahmet");     // 0    4

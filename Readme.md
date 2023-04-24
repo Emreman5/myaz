@@ -8,6 +8,7 @@
 * Week 05 - IEnumerable (SinglyLinkedListEnumerator) - DoublyLinkedList 
 * Week 06 - Stack
 * Week 07 - Queue
+* Week 08 - Algoritma Analizi
 
  
 

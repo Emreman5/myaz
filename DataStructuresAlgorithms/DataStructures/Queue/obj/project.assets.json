@@ -43,19 +43,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\PREDATOR\\.nuget\\packages\\": {}
+    "C:\\Users\\zafer\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PREDATOR\\source\\repos\\MYAZ20420623\\DataStructuresAlgorithms\\DataStructures\\Queue\\Queue.csproj",
+      "projectUniqueName": "E:\\MYAZ20420623\\DataStructuresAlgorithms\\DataStructures\\Queue\\Queue.csproj",
       "projectName": "Queue",
-      "projectPath": "C:\\Users\\PREDATOR\\source\\repos\\MYAZ20420623\\DataStructuresAlgorithms\\DataStructures\\Queue\\Queue.csproj",
-      "packagesPath": "C:\\Users\\PREDATOR\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PREDATOR\\Source\\Repos\\MYAZ20420623\\DataStructuresAlgorithms\\DataStructures\\Queue\\obj\\",
+      "projectPath": "E:\\MYAZ20420623\\DataStructuresAlgorithms\\DataStructures\\Queue\\Queue.csproj",
+      "packagesPath": "C:\\Users\\zafer\\.nuget\\packages\\",
+      "outputPath": "E:\\MYAZ20420623\\DataStructuresAlgorithms\\DataStructures\\Queue\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\PREDATOR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\zafer\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -69,11 +69,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\PREDATOR\\source\\repos\\MYAZ20420623\\DataStructuresAlgorithms\\DataStructures\\Array\\Array.csproj": {
-              "projectPath": "C:\\Users\\PREDATOR\\source\\repos\\MYAZ20420623\\DataStructuresAlgorithms\\DataStructures\\Array\\Array.csproj"
+            "E:\\MYAZ20420623\\DataStructuresAlgorithms\\DataStructures\\Array\\Array.csproj": {
+              "projectPath": "E:\\MYAZ20420623\\DataStructuresAlgorithms\\DataStructures\\Array\\Array.csproj"
             },
-            "C:\\Users\\PREDATOR\\source\\repos\\MYAZ20420623\\DataStructuresAlgorithms\\DataStructures\\LinkedList\\LinkedList.csproj": {
-              "projectPath": "C:\\Users\\PREDATOR\\source\\repos\\MYAZ20420623\\DataStructuresAlgorithms\\DataStructures\\LinkedList\\LinkedList.csproj"
+            "E:\\MYAZ20420623\\DataStructuresAlgorithms\\DataStructures\\LinkedList\\LinkedList.csproj": {
+              "projectPath": "E:\\MYAZ20420623\\DataStructuresAlgorithms\\DataStructures\\LinkedList\\LinkedList.csproj"
             }
           }
         }
@@ -103,7 +103,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

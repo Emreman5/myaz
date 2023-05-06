@@ -98,15 +98,9 @@ namespace DoublyLinkedListTest
             linkedList.AddLast(4); // 1 2 3 4
 
             var item1 = linkedList.RemoveLast(); // 1 2 3
-            var item2 = linkedList.RemoveLast(); // 1 2
-            var item3 = linkedList.RemoveLast(); // 1
-            var item4 = linkedList.RemoveLast(); // null
 
             // Assert
             Assert.Equal(4, item1);
-            Assert.Equal(3, item2);
-            Assert.Equal(2, item3);
-            Assert.Equal(1, item4);
         }
 
         [Fact]

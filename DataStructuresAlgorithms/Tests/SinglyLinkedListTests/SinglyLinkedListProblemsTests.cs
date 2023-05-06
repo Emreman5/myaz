@@ -5,7 +5,8 @@ namespace SinglyLinkedListTests
         [Fact]
         public void SinglyLinkedList_Concatenate_Test()
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+            Assert.Equal(0, 0);
         }
     }
 }

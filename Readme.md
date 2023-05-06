@@ -8,7 +8,7 @@
 * Week 05 - IEnumerable (SinglyLinkedListEnumerator) - DoublyLinkedList 
 * Week 06 - Stack
 * Week 07 - Queue
-* Week 08 - Algoritma Analizi
+* Week 08 - Algorithm Analysis
     - Asymptotic Analysis
     - Runnig-Time Analysis 
     - Big O
@@ -16,6 +16,16 @@
         - Substitution Method
         - Iteration Method
         - Master Theorem
+* Week 09 - Sorting Algorithms
+    - Bubble Sort
+* Week 10 - Sorting Algorithms
+    - Insertion Sort
+    - Selection Sort
+    - Quick Sort
+    - Merge Sort
+
+
+
 
  
 

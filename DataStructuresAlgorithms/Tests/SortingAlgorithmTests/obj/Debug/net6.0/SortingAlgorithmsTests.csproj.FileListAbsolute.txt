@@ -1,11 +1,6 @@
 E:\MYAZ20420623\DataStructuresAlgorithms\Tests\SortingAlgorithmTests\bin\Debug\net6.0\CoverletSourceRootsMapping
-E:\MYAZ20420623\DataStructuresAlgorithms\Tests\SortingAlgorithmTests\obj\Debug\net6.0\SortingAlgorithmsTests.csproj.AssemblyReference.cache
-E:\MYAZ20420623\DataStructuresAlgorithms\Tests\SortingAlgorithmTests\obj\Debug\net6.0\SortingAlgorithmsTests.GeneratedMSBuildEditorConfig.editorconfig
-E:\MYAZ20420623\DataStructuresAlgorithms\Tests\SortingAlgorithmTests\obj\Debug\net6.0\SortingAlgorithmsTests.AssemblyInfoInputs.cache
-E:\MYAZ20420623\DataStructuresAlgorithms\Tests\SortingAlgorithmTests\obj\Debug\net6.0\SortingAlgorithmsTests.AssemblyInfo.cs
-E:\MYAZ20420623\DataStructuresAlgorithms\Tests\SortingAlgorithmTests\obj\Debug\net6.0\SortingAlgorithmsTests.csproj.CoreCompileInputs.cache
-E:\MYAZ20420623\DataStructuresAlgorithms\Tests\SortingAlgorithmTests\bin\Debug\net6.0\testhost.exe
 E:\MYAZ20420623\DataStructuresAlgorithms\Tests\SortingAlgorithmTests\bin\Debug\net6.0\testhost.dll
+E:\MYAZ20420623\DataStructuresAlgorithms\Tests\SortingAlgorithmTests\bin\Debug\net6.0\testhost.exe
 E:\MYAZ20420623\DataStructuresAlgorithms\Tests\SortingAlgorithmTests\bin\Debug\net6.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
 E:\MYAZ20420623\DataStructuresAlgorithms\Tests\SortingAlgorithmTests\bin\Debug\net6.0\xunit.runner.reporters.netcoreapp10.dll
 E:\MYAZ20420623\DataStructuresAlgorithms\Tests\SortingAlgorithmTests\bin\Debug\net6.0\xunit.runner.utility.netcoreapp10.dll
@@ -96,6 +91,11 @@ E:\MYAZ20420623\DataStructuresAlgorithms\Tests\SortingAlgorithmTests\bin\Debug\n
 E:\MYAZ20420623\DataStructuresAlgorithms\Tests\SortingAlgorithmTests\bin\Debug\net6.0\Utilities.dll
 E:\MYAZ20420623\DataStructuresAlgorithms\Tests\SortingAlgorithmTests\bin\Debug\net6.0\SortingAlgorithms.pdb
 E:\MYAZ20420623\DataStructuresAlgorithms\Tests\SortingAlgorithmTests\bin\Debug\net6.0\Utilities.pdb
+E:\MYAZ20420623\DataStructuresAlgorithms\Tests\SortingAlgorithmTests\obj\Debug\net6.0\SortingAlgorithmsTests.csproj.AssemblyReference.cache
+E:\MYAZ20420623\DataStructuresAlgorithms\Tests\SortingAlgorithmTests\obj\Debug\net6.0\SortingAlgorithmsTests.GeneratedMSBuildEditorConfig.editorconfig
+E:\MYAZ20420623\DataStructuresAlgorithms\Tests\SortingAlgorithmTests\obj\Debug\net6.0\SortingAlgorithmsTests.AssemblyInfoInputs.cache
+E:\MYAZ20420623\DataStructuresAlgorithms\Tests\SortingAlgorithmTests\obj\Debug\net6.0\SortingAlgorithmsTests.AssemblyInfo.cs
+E:\MYAZ20420623\DataStructuresAlgorithms\Tests\SortingAlgorithmTests\obj\Debug\net6.0\SortingAlgorithmsTests.csproj.CoreCompileInputs.cache
 E:\MYAZ20420623\DataStructuresAlgorithms\Tests\SortingAlgorithmTests\obj\Debug\net6.0\SortingAlgorithmsTests.csproj.CopyComplete
 E:\MYAZ20420623\DataStructuresAlgorithms\Tests\SortingAlgorithmTests\obj\Debug\net6.0\SortingAlgorithmsTests.dll
 E:\MYAZ20420623\DataStructuresAlgorithms\Tests\SortingAlgorithmTests\obj\Debug\net6.0\refint\SortingAlgorithmsTests.dll

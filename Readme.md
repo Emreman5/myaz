@@ -23,6 +23,10 @@
     - Selection Sort
     - Quick Sort
     - Merge Sort
+* Week 11 - Trees
+    - Trees
+    - Binary Trees
+    - Binary Search Trees
 
 
 

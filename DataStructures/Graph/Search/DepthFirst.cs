@@ -1,5 +1,9 @@
 ﻿namespace Graph.Search
 {
+    /// <summary>
+    /// Depth First Search
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
     public class DepthFirst<T>
     {
         public bool Find(IGraph<T> graph, T vertexKey)

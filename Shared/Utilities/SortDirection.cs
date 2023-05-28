@@ -8,7 +8,7 @@ namespace Utilities
 {
     public enum SortDirection
     {
-        Ascending = 0,
+        Asceding = 0,
         Descending = 1
     }
 }

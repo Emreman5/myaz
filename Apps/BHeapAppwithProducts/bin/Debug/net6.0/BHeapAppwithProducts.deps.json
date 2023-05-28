@@ -19,12 +19,24 @@
           "Array.dll": {}
         }
       },
+      "DisjointSet/1.0.0": {
+        "runtime": {
+          "DisjointSet.dll": {}
+        }
+      },
       "PriorityQueue/1.0.0": {
         "dependencies": {
-          "Array": "1.0.0"
+          "Array": "1.0.0",
+          "DisjointSet": "1.0.0",
+          "Utilities": "1.0.0"
         },
         "runtime": {
           "PriorityQueue.dll": {}
+        }
+      },
+      "Utilities/1.0.0": {
+        "runtime": {
+          "Utilities.dll": {}
         }
       }
     }
@@ -40,7 +52,17 @@
       "serviceable": false,
       "sha512": ""
     },
+    "DisjointSet/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "PriorityQueue/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Utilities/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

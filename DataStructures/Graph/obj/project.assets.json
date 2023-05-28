@@ -1,11 +1,81 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "Array/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Array.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Array.dll": {}
+        }
+      },
+      "DisjointSet/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/DisjointSet.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DisjointSet.dll": {}
+        }
+      },
+      "PriorityQueue/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Array": "1.0.0",
+          "DisjointSet": "1.0.0",
+          "Utilities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PriorityQueue.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PriorityQueue.dll": {}
+        }
+      },
+      "Utilities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Utilities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Utilities.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Array/1.0.0": {
+      "type": "project",
+      "path": "../Array/Array.csproj",
+      "msbuildProject": "../Array/Array.csproj"
+    },
+    "DisjointSet/1.0.0": {
+      "type": "project",
+      "path": "../DisjointSet/DisjointSet.csproj",
+      "msbuildProject": "../DisjointSet/DisjointSet.csproj"
+    },
+    "PriorityQueue/1.0.0": {
+      "type": "project",
+      "path": "../PriorityQueue/PriorityQueue.csproj",
+      "msbuildProject": "../PriorityQueue/PriorityQueue.csproj"
+    },
+    "Utilities/1.0.0": {
+      "type": "project",
+      "path": "../../Shared/Utilities/Utilities.csproj",
+      "msbuildProject": "../../Shared/Utilities/Utilities.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "PriorityQueue >= 1.0.0",
+      "Utilities >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\zafer\\.nuget\\packages\\": {}
@@ -33,7 +103,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\MYAZ20420623\\DataStructures\\PriorityQueue\\PriorityQueue.csproj": {
+              "projectPath": "E:\\MYAZ20420623\\DataStructures\\PriorityQueue\\PriorityQueue.csproj"
+            },
+            "E:\\MYAZ20420623\\Shared\\Utilities\\Utilities.csproj": {
+              "projectPath": "E:\\MYAZ20420623\\Shared\\Utilities\\Utilities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

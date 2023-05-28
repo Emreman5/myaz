@@ -11,6 +11,26 @@
         "runtime": {
           "bin/placeholder/Array.dll": {}
         }
+      },
+      "DisjointSet/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/DisjointSet.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DisjointSet.dll": {}
+        }
+      },
+      "Utilities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Utilities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Utilities.dll": {}
+        }
       }
     }
   },
@@ -19,11 +39,23 @@
       "type": "project",
       "path": "../Array/Array.csproj",
       "msbuildProject": "../Array/Array.csproj"
+    },
+    "DisjointSet/1.0.0": {
+      "type": "project",
+      "path": "../DisjointSet/DisjointSet.csproj",
+      "msbuildProject": "../DisjointSet/DisjointSet.csproj"
+    },
+    "Utilities/1.0.0": {
+      "type": "project",
+      "path": "../../Shared/Utilities/Utilities.csproj",
+      "msbuildProject": "../../Shared/Utilities/Utilities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Array >= 1.0.0"
+      "Array >= 1.0.0",
+      "DisjointSet >= 1.0.0",
+      "Utilities >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -55,6 +87,12 @@
           "projectReferences": {
             "E:\\MYAZ20420623\\DataStructures\\Array\\Array.csproj": {
               "projectPath": "E:\\MYAZ20420623\\DataStructures\\Array\\Array.csproj"
+            },
+            "E:\\MYAZ20420623\\DataStructures\\DisjointSet\\DisjointSet.csproj": {
+              "projectPath": "E:\\MYAZ20420623\\DataStructures\\DisjointSet\\DisjointSet.csproj"
+            },
+            "E:\\MYAZ20420623\\Shared\\Utilities\\Utilities.csproj": {
+              "projectPath": "E:\\MYAZ20420623\\Shared\\Utilities\\Utilities.csproj"
             }
           }
         }

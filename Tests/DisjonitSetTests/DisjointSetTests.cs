@@ -7,7 +7,7 @@ namespace DisjonitSetTests
         [Fact]
         public void Smoke_Test_DisJointSet()
         {
-            var disjointSet = new DisJointSet<int>();
+            var disjointSet = new DisjointSet<int>();
 
             for (int i = 1; i <= 7; i++)
             {

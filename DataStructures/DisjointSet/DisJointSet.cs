@@ -3,17 +3,17 @@ using System.Collections;
 
 namespace DisjointSet
 {
-    public class DisJointSet<T> : IEnumerable<T>
+    public class DisjointSet<T> : IEnumerable<T>
     {
         private Dictionary<T, DisjointSetNode<T>> set
             = new Dictionary<T, DisjointSetNode<T>>();
 
-        public DisJointSet()
+        public DisjointSet()
         {
 
         }
 
-        public DisJointSet(IEnumerable<T> collection)
+        public DisjointSet(IEnumerable<T> collection)
         {
             foreach (var item in collection)
                 MakeSet(item);

@@ -10,7 +10,11 @@
     <Folder Include="AdjancencyMatrix\" />
     <Folder Include="AdjancencyList\" />
     <Folder Include="Search\" />
-    <Folder Include="MinimumSpanningTree\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Shared\Utilities\Utilities.csproj" />
+    <ProjectReference Include="..\PriorityQueue\PriorityQueue.csproj" />
   </ItemGroup>
 
 </Project>

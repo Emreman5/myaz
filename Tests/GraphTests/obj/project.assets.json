@@ -1738,6 +1738,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "PriorityQueue": "1.0.0",
+          "Queue": "1.0.0",
           "Utilities": "1.0.0"
         },
         "compile": {
@@ -1745,6 +1746,16 @@
         },
         "runtime": {
           "bin/placeholder/Graph.dll": {}
+        }
+      },
+      "LinkedList/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/LinkedList.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LinkedList.dll": {}
         }
       },
       "PriorityQueue/1.0.0": {
@@ -1760,6 +1771,20 @@
         },
         "runtime": {
           "bin/placeholder/PriorityQueue.dll": {}
+        }
+      },
+      "Queue/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Array": "1.0.0",
+          "LinkedList": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Queue.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Queue.dll": {}
         }
       },
       "Utilities/1.0.0": {
@@ -5581,10 +5606,20 @@
       "path": "../../DataStructures/Graph/Graph.csproj",
       "msbuildProject": "../../DataStructures/Graph/Graph.csproj"
     },
+    "LinkedList/1.0.0": {
+      "type": "project",
+      "path": "../../DataStructures/LinkedList/LinkedList.csproj",
+      "msbuildProject": "../../DataStructures/LinkedList/LinkedList.csproj"
+    },
     "PriorityQueue/1.0.0": {
       "type": "project",
       "path": "../../DataStructures/PriorityQueue/PriorityQueue.csproj",
       "msbuildProject": "../../DataStructures/PriorityQueue/PriorityQueue.csproj"
+    },
+    "Queue/1.0.0": {
+      "type": "project",
+      "path": "../../DataStructures/Queue/Queue.csproj",
+      "msbuildProject": "../../DataStructures/Queue/Queue.csproj"
     },
     "Utilities/1.0.0": {
       "type": "project",

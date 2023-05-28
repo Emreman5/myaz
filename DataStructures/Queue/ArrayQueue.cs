@@ -23,13 +23,13 @@ namespace Queue
         {
             foreach (var item in collection)
             {
-                Enqueue(item);
+                EnQueue(item);
             }
         }
 
         public int Count => _innerArray.Count;
 
-        public T Dequeue()
+        public T DeQueue()
         {
             if (Count == 0)
                 throw new Exception("The queue is empty!");
@@ -40,7 +40,7 @@ namespace Queue
             return temp;
         }
 
-        public void Enqueue(T item)
+        public void EnQueue(T item)
         {
             _innerArray.Add(item);
         }

@@ -14,14 +14,14 @@ namespace Queue
 
         public int Count => linkedlistqueue.Count();
 
-        public T Dequeue()
+        public T DeQueue()
         {
             if (linkedlistqueue.Head is null)
                 throw new Exception("The queue is empty!");
             return linkedlistqueue.RemoveFirst();
         }
 
-        public void Enqueue(T item)
+        public void EnQueue(T item)
         {
             linkedlistqueue.AddLast(item);
         }

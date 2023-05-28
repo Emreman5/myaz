@@ -16,7 +16,7 @@ namespace QueueTest
             var queue = new ArrayQueue<char>("Mehmet"); // {'M', 'e', 'h', 'm', 'e', 't'}
 
             // Act
-            queue.Enqueue('A');
+            queue.EnQueue('A');
 
             // Assert
             Assert.Equal(7, queue.Count);
@@ -29,7 +29,7 @@ namespace QueueTest
             var queue = new ArrayQueue<char>("Mehmet"); // {'M', 'e', 'h', 'm', 'e', 't'}
 
             // Act
-            var item = queue.Dequeue(); // 'M'
+            var item = queue.DeQueue(); // 'M'
 
             // Assert
             Assert.Equal(5, queue.Count);
@@ -45,7 +45,7 @@ namespace QueueTest
             // Act
 
             // Assert
-            Assert.Throws<Exception>(() => queue.Dequeue());
+            Assert.Throws<Exception>(() => queue.DeQueue());
         }
 
         [Fact]

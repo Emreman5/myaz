@@ -9,8 +9,8 @@ namespace Queue.Contract
     public interface IQueue<T>
     {
         public int Count { get; }
-        public void Enqueue(T item);
-        public T Dequeue();
+        public void EnQueue(T item);
+        public T DeQueue();
 
         public T Peek();
     }

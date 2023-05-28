@@ -11,11 +11,11 @@ namespace QueueTest
             var queue = new LinkedListQueue<int>();
 
             // Act
-            queue.Enqueue(1);
-            queue.Enqueue(2);
-            queue.Enqueue(3);
-            queue.Enqueue(4);
-            queue.Enqueue(5);
+            queue.EnQueue(1);
+            queue.EnQueue(2);
+            queue.EnQueue(3);
+            queue.EnQueue(4);
+            queue.EnQueue(5);
 
             // Assert
             Assert.Equal(5, queue.Count);
@@ -29,19 +29,19 @@ namespace QueueTest
             var queue = new LinkedListQueue<int>();
 
             // Act
-            queue.Enqueue(1);
-            queue.Enqueue(2);
-            queue.Enqueue(3);
-            queue.Enqueue(4);
-            queue.Enqueue(5);
+            queue.EnQueue(1);
+            queue.EnQueue(2);
+            queue.EnQueue(3);
+            queue.EnQueue(4);
+            queue.EnQueue(5);
 
             // Assert
             Assert.Equal(5, queue.Count);
-            Assert.Equal(1, queue.Dequeue());
-            Assert.Equal(2, queue.Dequeue());
-            Assert.Equal(3, queue.Dequeue());
-            Assert.Equal(4, queue.Dequeue());
-            Assert.Equal(5, queue.Dequeue());
+            Assert.Equal(1, queue.DeQueue());
+            Assert.Equal(2, queue.DeQueue());
+            Assert.Equal(3, queue.DeQueue());
+            Assert.Equal(4, queue.DeQueue());
+            Assert.Equal(5, queue.DeQueue());
         }
 
         [Fact]
@@ -54,7 +54,7 @@ namespace QueueTest
 
 
             // Assert
-            Assert.Throws<Exception>(() => queue.Dequeue());
+            Assert.Throws<Exception>(() => queue.DeQueue());
         }
     }
 }

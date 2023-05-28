@@ -22,6 +22,16 @@
           "bin/placeholder/DisjointSet.dll": {}
         }
       },
+      "LinkedList/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/LinkedList.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LinkedList.dll": {}
+        }
+      },
       "PriorityQueue/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -35,6 +45,20 @@
         },
         "runtime": {
           "bin/placeholder/PriorityQueue.dll": {}
+        }
+      },
+      "Queue/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Array": "1.0.0",
+          "LinkedList": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Queue.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Queue.dll": {}
         }
       },
       "Utilities/1.0.0": {
@@ -60,10 +84,20 @@
       "path": "../DisjointSet/DisjointSet.csproj",
       "msbuildProject": "../DisjointSet/DisjointSet.csproj"
     },
+    "LinkedList/1.0.0": {
+      "type": "project",
+      "path": "../LinkedList/LinkedList.csproj",
+      "msbuildProject": "../LinkedList/LinkedList.csproj"
+    },
     "PriorityQueue/1.0.0": {
       "type": "project",
       "path": "../PriorityQueue/PriorityQueue.csproj",
       "msbuildProject": "../PriorityQueue/PriorityQueue.csproj"
+    },
+    "Queue/1.0.0": {
+      "type": "project",
+      "path": "../Queue/Queue.csproj",
+      "msbuildProject": "../Queue/Queue.csproj"
     },
     "Utilities/1.0.0": {
       "type": "project",
@@ -74,6 +108,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "PriorityQueue >= 1.0.0",
+      "Queue >= 1.0.0",
       "Utilities >= 1.0.0"
     ]
   },
@@ -106,6 +141,9 @@
           "projectReferences": {
             "E:\\MYAZ20420623\\DataStructures\\PriorityQueue\\PriorityQueue.csproj": {
               "projectPath": "E:\\MYAZ20420623\\DataStructures\\PriorityQueue\\PriorityQueue.csproj"
+            },
+            "E:\\MYAZ20420623\\DataStructures\\Queue\\Queue.csproj": {
+              "projectPath": "E:\\MYAZ20420623\\DataStructures\\Queue\\Queue.csproj"
             },
             "E:\\MYAZ20420623\\Shared\\Utilities\\Utilities.csproj": {
               "projectPath": "E:\\MYAZ20420623\\Shared\\Utilities\\Utilities.csproj"

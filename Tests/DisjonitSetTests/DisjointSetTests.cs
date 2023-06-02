@@ -37,7 +37,7 @@ namespace DisjonitSetTests
             Assert.Equal(1, disjointSet.FindSet(4));
 
             //IEnumerable test
-            Assert.Equal(disjointSet.Count, disjointSet.Count());
+            Assert.Equal(7, disjointSet.Count());
 
         }
     }
